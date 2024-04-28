@@ -3,9 +3,7 @@ package com.hongtayvy.demo.mapper;
 import com.hongtayvy.demo.dto.UserDTO;
 import com.hongtayvy.demo.model.User;
 import com.hongtayvy.demo.repository.entity.UserEntity;
-import org.springframework.stereotype.Component;
 
-@Component
 public class UserMapper {
     public User toUser(UserDTO userDTO){
         return new User(

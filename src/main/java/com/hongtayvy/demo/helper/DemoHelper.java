@@ -2,9 +2,7 @@ package com.hongtayvy.demo.helper;
 
 import com.hongtayvy.demo.dto.UserDTO;
 import com.hongtayvy.demo.exception.DemoFormatException;
-import org.springframework.stereotype.Component;
 
-@Component
 public class DemoHelper {
     public int sanitizedId(String id){
         try{
